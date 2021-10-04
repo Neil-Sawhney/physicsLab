@@ -73,3 +73,16 @@ deltat = 0.015
 deltag = deltanAns
 deltan = sy.sqrt((n.diff(d)*deltad)**2 + (n.diff(t)*deltat)**2 + (n.diff(g)*deltag)**2)
 print('deltag =: ',deltan.subs({d:17.41, t:2.202, g:nAns}))
+
+#----------------------
+theta1, theta2 = sy.symbols('theta1 theta2')
+n = sy.sin(theta1)/sy.sin(theta2)
+sub1 = radians(double(input()))
+sub2 = radians(double(input()))
+nAns = n.subs({theta1:sub1, theta2:sub2})
+print('n =: ',nAns)
+delta = 0.707
+deltan = sy.sqrt((n.diff(theta1)*delta)**2 + (n.diff(theta2)*delta)**2)
+deltanAns = deltan.subs({theta1:sub1, theta2:sub2})
+print('deltan =: ',deltanAns)
+
