@@ -1,0 +1,18 @@
+\contentsline {chapter}{\numberline {1}Purpose}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Data}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Sources of uncertainty}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Calculations}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Derivation for Focal Length}{6}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Focal Length}{6}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Error Propagation for Focal Length from \ref {shortLensPositions}}{7}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Angular Magnification}{7}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Error Propagation for Magnification}{7}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Calculations used in data tables}{7}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Sharpness error}{7}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Error Propagation for Linear Scale}{8}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Focal Length Approximations}{8}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {5}Results}{9}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusions}{10}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Answered Questions}{11}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Question 1}{11}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Question 2}{11}{section.7.2}%
