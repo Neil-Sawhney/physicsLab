@@ -38,7 +38,7 @@
 \tableofcontents
 
 \chapter{Purpose}
-The purpose of this lab is to plot the interference pattern of light as it passes through 1, 2, and N number of slits for both an infinitesimally small slit and a fixed width slit. 
+The purpose of this lab is to plot the intensity pattern of light as it passes through 1, 2, and N number of slits for an infinitesimally small slit. Using these results we will plot the intensity pattern of light for a slit of finite width.
 
 
 %-----------------------------------
@@ -48,37 +48,65 @@ The purpose of this lab is to plot the interference pattern of light as it passe
 \begin{table}[H]
     \centering
     \includegraphics[width = \textwidth]{plot1.png}
-    \caption{Diffraction Grating}
 \end{table}
 \bigskip
 
 \begin{table}[H]
     \centering
     \includegraphics[width = \textwidth]{plot2.png}
-    \caption{Diffraction Grating}
 \end{table}
 \bigskip
 
 \begin{table}[H]
     \centering
     \includegraphics[width = \textwidth]{plot3.png}
-    \caption{Diffraction Grating}
 \end{table}
 \bigskip
 
 \begin{table}[H]
     \centering
     \includegraphics[width = \textwidth]{plot4.png}
-    \caption{Diffraction Grating}
 \end{table}
 \bigskip
 
 \subsection*{Question}
+\label{Question}
+Notice that the m=3 ($\theta \approx 30^\circ $) order is missing. \\
+
+\noindent The bright interference fringes occur at $d \sin \theta=m \lambda$, or
+
+\begin{equation}
+    \sin \theta=\frac{m \lambda}{d}
+    \label{sin}
+\end{equation}
+
+    We also know that,
+$$
+I=I_{0}\left(\frac{\sin \beta}{\beta}\right)^{2}
+$$
+    where
+\begin{equation}
+    \beta=\frac{\pi a \sin \theta}{\lambda}
+    \label{beta}
+\end{equation}
+    Substituting equation \ref{sin} into \ref{beta},
+$$
+\beta=\frac{\pi a \sin \theta}{\lambda}=\frac{\pi a}{\lambda} \cdot \frac{m \lambda}{d}=\frac{m \pi a}{d}
+$$
+For $a=2 \lambda, d=6 \lambda$, and $m=3$,
+$$
+    \beta=\frac{(3) \pi(2 \lambda)}{(6 \lambda)}=\pi
+$$
+Then, the intensity is
+$$
+    I=I_{0}\left(\frac{\sin \beta}{\beta}\right)^{2}=I_{0}\left(\frac{\sin (\pi)}{\pi}\right)^{2}=0
+$$
+Although the interference intensity in very high at this point, the diffraction inten:w
+sity is 0 and cancels it out
 
 \chapter{Conclusions}
 
-By using the interference and wave like nature of light, the diffraction pattern created by a laser hitting a hair was used to determine the thickness of the hair. The error bounds of the calculated value agrees with literature values.  
-
+A single slit of finite width can be plotted by multiplying the equation for a double slit of infinitesimally small width and a single slit of infinitesimally small width where d of the double slit is the slit separation and d of the single slit is the slit width.
 
 
 
